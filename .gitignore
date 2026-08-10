@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large data files
+data/raw/
+data/processed/*.csv
+
+# Trained model weights (too large for GitHub, see README for download link)
+models/final-sentiment-model/*.safetensors
+models/**/checkpoint-*/
+models/distilbert-checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Environment/secrets
+.env
